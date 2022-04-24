@@ -1,0 +1,31 @@
+.note-list{
+    display: grid;
+    grid-template-rows: 2fr 2fr ;
+}
+.note-head{
+    margin: 10px auto;
+    width: 90%;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    display: grid;
+    background-color: grey;
+}
+.head-div {
+    margin:10px ;
+    background-color: white;
+    font-size: 14pt;
+    padding: 15px;
+}
+.note-main{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    width: 90%;
+    background-color: gainsboro;
+}
+
+.main-div{
+    width: 90%;
+    text-align: center;
+    margin: 10px;
+    padding: 8px;
+}

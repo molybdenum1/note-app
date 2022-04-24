@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import NoteList from './components/NoteList/NoteList';
+import AchievedList from './components/AchievedList/AchievedList';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>NOTE LIST</h1>
+      <NoteList
+      notes={props.state}
+      />
+      <h1>BTN</h1>
+      <div className="note-btn">
+        <button>Add a Note</button>
+      </div>
+      <h1>ACHIVED</h1>
+      <AchievedList
+      notes={props.state}/>
     </div>
   );
 }

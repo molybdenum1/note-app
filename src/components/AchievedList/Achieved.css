@@ -1,0 +1,17 @@
+.arch-list{
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+}
+.arch-head{
+    margin: 10px auto;
+    width: 90%;
+    grid-template-columns: 5fr 2fr 3fr;
+    display: grid;
+    background-color: grey;
+}
+.arch-div{
+    margin: 10px ;
+    background-color: white;
+    font-size: 14pt;
+    padding: 5px;
+}
