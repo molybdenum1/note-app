@@ -45,8 +45,20 @@ let state = {
             content: 'fighting club',
             tillDate: null
         },
-
+        {
+            id: '6',
+            achieved : true,  
+            name: 'AJAJJAJ',
+            createdDate: 'May 15, 2021', 
+            type: 'Task',
+            content: 'fighting club',
+            tillDate: null
+        },
+    ],
+    type: [
+        'Task','Quote','Idea','Random Thought' 
     ]
 }
+window.state = state
 
 export default state

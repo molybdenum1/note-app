@@ -17,7 +17,11 @@ export default function Note(props) {
                     props.note.content}
             </div>
             {props.note.tillDate?<div className="main-div">{props.note.tillDate}</div>:<div></div>}
-            <div className="main-div">KNOPOCHKI</div>        
+            <div className="main-div">
+                    <button>Update</button>
+                    <button>Archive</button>
+                    <button>Delete</button>
+            </div>        
         </div>
   )
 }
